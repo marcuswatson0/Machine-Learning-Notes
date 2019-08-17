@@ -13,6 +13,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, rando
 # Create a k-NN classifier with 7 neighbors: knn
 knn = knn = KNeighborsClassifier(n_neighbors=7)
 # Fit the classifier to the training data
-knn.fit(X, y)
+knn.fit(X_train, y_train)
 
 Output = Accuracy
