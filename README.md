@@ -160,3 +160,5 @@ print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
 
 Calculate Accuracy, Precision, Recall, F1 Score
+
+
